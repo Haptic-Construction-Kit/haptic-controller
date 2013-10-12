@@ -1,6 +1,8 @@
 haptic-controller
 =================
 
+These files can be used to build a controller that replaces a consumer arduino board. Design considerations included size, case fit, increased trace widths to enable more motors on at the same time.
+
 When combined with a Haptic Tactor or Tactor Strip creates a string of haptic devices. Presumably you can attach a ton of those in a row. Right now theres a software limit of 16 tactors which will be fixed soon. The next limit is voltage drop over wires. I'm not sure what we're looking at for that yet. Finally the next limit is tactors on at a time. The current amperage limit is 1 amp or about 10 tactors on at a time, but feel free to push it.
 
 Send gerber directory to your favorite PCB house to get your own boards. Try www.oshpark.com for great quality cheap low quantity US boards with quick turn around time.
